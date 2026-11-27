@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E6570EA16E04EAA9657F9F8 /* ViewModels/MedicationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D54500BCBA4FF2B6B970E0 /* ViewModels/MedicationStore.swift */; };
+		3E8248EB29944983B7115599 /* Views/RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5846593CAC748949117F4C3 /* Views/RootView.swift */; };
+		427AA27FFF39430AB57086F1 /* Views/MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274A77DD9DF5494EA43DA4E5 /* Views/MainTabView.swift */; };
+		46265771E18B46A9B735B9CA /* Services/NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8349D2B1314797B1FFC18E /* Services/NotificationManager.swift */; };
+		525DC777453F4ADEBA359F3F /* Views/MedicationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72609AD226394BBE963A722F /* Views/MedicationDetailView.swift */; };
+		87E357A93C2C4CDE864BB467 /* Views/DoseHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D4D9F5D7F140DA928B4C47 /* Views/DoseHistoryView.swift */; };
+		9C4AA8B2C5D4410BB14D159D /* Views/MedicationFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23680DAAB8E34ABDB1DBC0DC /* Views/MedicationFormView.swift */; };
+		AC4C04351219498395B81985 /* Views/MedicationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E709DD89D4935B86F531E /* Views/MedicationListView.swift */; };
+		B005F704A064442698933D05 /* MedicationPillReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49C7C1CB6DF426F982B01E2 /* MedicationPillReminderApp.swift */; };
+		B02D382DA4124693824952DA /* ViewModels/AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ACC5B2F9774EC59A4574B2 /* ViewModels/AuthenticationViewModel.swift */; };
+		B760261DDDB1436CBF35248B /* Views/MedicationComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFA7D35EE5745FEAB108E43 /* Views/MedicationComponents.swift */; };
+		D46A624C1BCC490AA944011D /* Views/LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F360F7C6CCE49DABC161FA0 /* Views/LockView.swift */; };
+		E3EAC4B405EE48CF9C053B65 /* Models/Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1659D27274EE41BA9DA7386E /* Models/Medication.swift */; };
+		EF65FC35134042E3A945EC98 /* Views/DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D749282C7E4F479A417FB1 /* Views/DashboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C58B7BEAB3C4677A86E414F /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		0CFA7D35EE5745FEAB108E43 /* Views/MedicationComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/MedicationComponents.swift; sourceTree = "<group>"; };
+		0F360F7C6CCE49DABC161FA0 /* Views/LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/LockView.swift; sourceTree = "<group>"; };
+		10D54500BCBA4FF2B6B970E0 /* ViewModels/MedicationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/MedicationStore.swift; sourceTree = "<group>"; };
+		1659D27274EE41BA9DA7386E /* Models/Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Medication.swift; sourceTree = "<group>"; };
+		23680DAAB8E34ABDB1DBC0DC /* Views/MedicationFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/MedicationFormView.swift; sourceTree = "<group>"; };
+		246AA0456CB44350AD81112F /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
+		26D749282C7E4F479A417FB1 /* Views/DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/DashboardView.swift; sourceTree = "<group>"; };
+		274A77DD9DF5494EA43DA4E5 /* Views/MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/MainTabView.swift; sourceTree = "<group>"; };
+		31ACC5B2F9774EC59A4574B2 /* ViewModels/AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		36317D9509D3477580B5D889 /* MedicationPillReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicationPillReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8349D2B1314797B1FFC18E /* Services/NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/NotificationManager.swift; sourceTree = "<group>"; };
+		3B9E709DD89D4935B86F531E /* Views/MedicationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/MedicationListView.swift; sourceTree = "<group>"; };
+		6D8D7FE292064B1CAD2B830F /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		72609AD226394BBE963A722F /* Views/MedicationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/MedicationDetailView.swift; sourceTree = "<group>"; };
+		7E57F4FFB9964D5DA338B6B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88640EE1CF1B488BB03B7E8B /* ViewModels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModels; sourceTree = "<group>"; };
+		C5846593CAC748949117F4C3 /* Views/RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/RootView.swift; sourceTree = "<group>"; };
+		F49C7C1CB6DF426F982B01E2 /* MedicationPillReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationPillReminderApp.swift; sourceTree = "<group>"; };
+		F4D4D9F5D7F140DA928B4C47 /* Views/DoseHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/DoseHistoryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B40CFBA7F3480EA3C5CE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		654F0525406C4E39AD030EDA = {
+			isa = PBXGroup;
+			children = (
+				F49C7C1CB6DF426F982B01E2 /* MedicationPillReminderApp.swift */,
+				1659D27274EE41BA9DA7386E /* Models/Medication.swift */,
+				10D54500BCBA4FF2B6B970E0 /* ViewModels/MedicationStore.swift */,
+				31ACC5B2F9774EC59A4574B2 /* ViewModels/AuthenticationViewModel.swift */,
+				3B8349D2B1314797B1FFC18E /* Services/NotificationManager.swift */,
+				C5846593CAC748949117F4C3 /* Views/RootView.swift */,
+				0F360F7C6CCE49DABC161FA0 /* Views/LockView.swift */,
+				274A77DD9DF5494EA43DA4E5 /* Views/MainTabView.swift */,
+				26D749282C7E4F479A417FB1 /* Views/DashboardView.swift */,
+				3B9E709DD89D4935B86F531E /* Views/MedicationListView.swift */,
+				0CFA7D35EE5745FEAB108E43 /* Views/MedicationComponents.swift */,
+				23680DAAB8E34ABDB1DBC0DC /* Views/MedicationFormView.swift */,
+				72609AD226394BBE963A722F /* Views/MedicationDetailView.swift */,
+				F4D4D9F5D7F140DA928B4C47 /* Views/DoseHistoryView.swift */,
+				6D8D7FE292064B1CAD2B830F /* Models */,
+				88640EE1CF1B488BB03B7E8B /* ViewModels */,
+				0C58B7BEAB3C4677A86E414F /* Views */,
+				246AA0456CB44350AD81112F /* Services */,
+				7E57F4FFB9964D5DA338B6B7 /* Assets.xcassets */,
+				9AD409DDF50543DF948377EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD409DDF50543DF948377EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36317D9509D3477580B5D889 /* MedicationPillReminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		815A06C5DB6643ACACC32261 /* MedicationPillReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE044D65CB948729CDFD045 /* Build configuration list for PBXNativeTarget "MedicationPillReminder" */;
+			buildPhases = (
+				EDD413DD5D47437F8B15D1AC /* Sources */,
+				92B40CFBA7F3480EA3C5CE5F /* Frameworks */,
+				1AD2042C9C764953874DA798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicationPillReminder;
+			productName = MedicationPillReminder;
+			productReference = 36317D9509D3477580B5D889 /* MedicationPillReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A09BD09BF424F5FA750C853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2720;
+			};
+			buildConfigurationList = 360D0071D74B443CBBD2A8CE /* Build configuration list for PBXProject "MedicationPillReminder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 654F0525406C4E39AD030EDA;
+			productRefGroup = 9AD409DDF50543DF948377EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				815A06C5DB6643ACACC32261 /* MedicationPillReminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD2042C9C764953874DA798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD413DD5D47437F8B15D1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B005F704A064442698933D05 /* MedicationPillReminderApp.swift in Sources */,
+				E3EAC4B405EE48CF9C053B65 /* Models/Medication.swift in Sources */,
+				2E6570EA16E04EAA9657F9F8 /* ViewModels/MedicationStore.swift in Sources */,
+				B02D382DA4124693824952DA /* ViewModels/AuthenticationViewModel.swift in Sources */,
+				46265771E18B46A9B735B9CA /* Services/NotificationManager.swift in Sources */,
+				3E8248EB29944983B7115599 /* Views/RootView.swift in Sources */,
+				D46A624C1BCC490AA944011D /* Views/LockView.swift in Sources */,
+				427AA27FFF39430AB57086F1 /* Views/MainTabView.swift in Sources */,
+				EF65FC35134042E3A945EC98 /* Views/DashboardView.swift in Sources */,
+				AC4C04351219498395B81985 /* Views/MedicationListView.swift in Sources */,
+				B760261DDDB1436CBF35248B /* Views/MedicationComponents.swift in Sources */,
+				9C4AA8B2C5D4410BB14D159D /* Views/MedicationFormView.swift in Sources */,
+				525DC777453F4ADEBA359F3F /* Views/MedicationDetailView.swift in Sources */,
+				87E357A93C2C4CDE864BB467 /* Views/DoseHistoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4701C37A420345E5B3DD3E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		84697E47B87A4F3086B93938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = Debug;
+		};
+		A1E7FCE86BB247A0AFE4FD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock your medication schedule securely.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MedicationPillReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A86638BCBC56488A98AA28B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock your medication schedule securely.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MedicationPillReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		360D0071D74B443CBBD2A8CE /* Build configuration list for PBXProject "MedicationPillReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84697E47B87A4F3086B93938 /* Debug */,
+				4701C37A420345E5B3DD3E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE044D65CB948729CDFD045 /* Build configuration list for PBXNativeTarget "MedicationPillReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E7FCE86BB247A0AFE4FD60 /* Debug */,
+				A86638BCBC56488A98AA28B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A09BD09BF424F5FA750C853 /* Project object */;
+}
